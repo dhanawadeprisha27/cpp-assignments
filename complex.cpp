@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 class Complex {
     int real, imag;
 public:
@@ -16,7 +15,6 @@ public:
         cout << real << "+" << imag << "i";
     }
 };
-
 int main() {
     Complex c1;
     Complex c2(3, 4);
